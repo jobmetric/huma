@@ -8,6 +8,7 @@ use JobMetric\PackageCore\Exceptions\RegisterClassTypeNotFoundException;
 use JobMetric\PackageCore\PackageCore;
 use JobMetric\PackageCore\PackageCoreServiceProvider;
 use JobMetric\Panelio\Facades\Panelio;
+use JobMetric\Panelio\RouteRegistry;
 
 class HumaServiceProvider extends PackageCoreServiceProvider
 {
@@ -19,9 +20,13 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         $package->name('huma')
             ->hasConfig()
             ->hasTranslation()
-            ->hasRoute()
             ->registerClass('event', EventServiceProvider::class, RegisterClassTypeEnum::REGISTER())
             ->registerClass('Huma', Huma::class, RegisterClassTypeEnum::SINGLETON());
+    }
+
+    public function afterRegisterPackage(): void
+    {
+        RouteRegistry::addPanel($this->package);
     }
 
     public function afterBootPackage(): void
