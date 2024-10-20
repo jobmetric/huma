@@ -32,11 +32,11 @@ class HumaServiceProvider extends PackageCoreServiceProvider
     public function afterBootPackage(): void
     {
         Panelio::addPanel('huma', [
-            'name' => config('huma.panel_name'),
+            'name' => 'huma::base.panel_name',
             'namespace' => 'JobMetric\Huma\Http\Controllers',
             'args' => [
                 'description' => trans('huma::base.description'),
-                'icon' => 'fas fa-user-shield',
+                'icon' => '<i class="ki-duotone ki-abstract-44 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'huma',
             'position' => 0,

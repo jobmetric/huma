@@ -12,6 +12,8 @@ return [
     |
     */
 
+    'panel_name' => 'HRM (Huma)',
+
     'description' => 'A user-friendly HRM platform designed to empower human resources, streamline employee management, and foster a positive workplace culture.',
 
     'sections' => [
