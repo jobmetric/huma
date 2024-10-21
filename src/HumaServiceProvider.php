@@ -35,7 +35,7 @@ class HumaServiceProvider extends PackageCoreServiceProvider
             'name' => 'huma::base.panel_name',
             'namespace' => 'JobMetric\Huma\Http\Controllers',
             'args' => [
-                'description' => trans('huma::base.description'),
+                'description' => 'huma::base.description',
                 'icon' => '<i class="ki-duotone ki-abstract-44 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'huma',
@@ -43,9 +43,9 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('huma', 'attendance', [
-            'name' => trans('huma::base.sections.attendance.name'),
+            'name' => 'huma::base.sections.attendance.name',
             'args' => [
-                'title' => trans('huma::base.sections.attendance.title'),
+                'title' => 'huma::base.sections.attendance.title',
                 'icon' => '<i class="ki-duotone ki-fingerprint-scanning fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>',
             ],
             'permission' => 'huma.attendance',
@@ -53,9 +53,9 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('huma', 'salary', [
-            'name' => trans('huma::base.sections.salary.name'),
+            'name' => 'huma::base.sections.salary.name',
             'args' => [
-                'title' => trans('huma::base.sections.salary.title'),
+                'title' => 'huma::base.sections.salary.title',
                 'icon' => '<i class="ki-duotone ki-bank fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'huma.salary',
@@ -63,9 +63,9 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('huma', 'feature', [
-            'name' => trans('huma::base.sections.feature.name'),
+            'name' => 'huma::base.sections.feature.name',
             'args' => [
-                'title' => trans('huma::base.sections.feature.title'),
+                'title' => 'huma::base.sections.feature.title',
                 'icon' => '<i class="ki-duotone ki-educare fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>',
             ],
             'permission' => 'huma.feature',
@@ -73,9 +73,9 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('huma', 'employee', [
-            'name' => trans('huma::base.sections.employee.name'),
+            'name' => 'huma::base.sections.employee.name',
             'args' => [
-                'title' => trans('huma::base.sections.employee.title'),
+                'title' => 'huma::base.sections.employee.title',
                 'icon' => '<i class="ki-duotone ki-abstract-22 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'huma.employee',
@@ -83,9 +83,9 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('huma', 'system', [
-            'name' => trans('huma::base.sections.system.name'),
+            'name' => 'huma::base.sections.system.name',
             'args' => [
-                'title' => trans('huma::base.sections.system.title'),
+                'title' => 'huma::base.sections.system.title',
                 'icon' => '<i class="ki-duotone ki-setting-3 fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></i>',
             ],
             'permission' => 'huma.system',
@@ -93,9 +93,9 @@ class HumaServiceProvider extends PackageCoreServiceProvider
         ]);
 
         Panelio::addSection('huma', 'report', [
-            'name' => trans('huma::base.sections.report.name'),
+            'name' => 'huma::base.sections.report.name',
             'args' => [
-                'title' => trans('huma::base.sections.report.title'),
+                'title' => 'huma::base.sections.report.title',
                 'icon' => '<i class="ki-duotone ki-chart-simple fs-2x"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i>',
             ],
             'permission' => 'huma.report',
