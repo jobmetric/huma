@@ -42,7 +42,7 @@ class HumaServiceProvider extends PackageCoreServiceProvider
                 'icon' => '<i class="ki-duotone ki-abstract-44 fs-2x"><span class="path1"></span><span class="path2"></span></i>',
             ],
             'permission' => 'huma',
-            'position' => 0,
+            'position' => 40,
         ]);
 
         Panelio::addSection('huma', 'attendance', [
