@@ -43,4 +43,8 @@ return [
         ],
     ],
 
+    'dashboard' => [
+        'title' => 'Human Resources Dashboard (Huma)',
+    ],
+
 ];

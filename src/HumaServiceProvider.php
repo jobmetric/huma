@@ -5,6 +5,7 @@ namespace JobMetric\Huma;
 use JobMetric\Huma\Providers\EventServiceProvider;
 use JobMetric\PackageCore\Enums\RegisterClassTypeEnum;
 use JobMetric\PackageCore\Exceptions\RegisterClassTypeNotFoundException;
+use JobMetric\PackageCore\Exceptions\ViewFolderNotFoundException;
 use JobMetric\PackageCore\PackageCore;
 use JobMetric\PackageCore\PackageCoreServiceProvider;
 use JobMetric\Panelio\Facades\Panelio;
@@ -14,12 +15,14 @@ class HumaServiceProvider extends PackageCoreServiceProvider
 {
     /**
      * @throws RegisterClassTypeNotFoundException
+     * @throws ViewFolderNotFoundException
      */
     public function configuration(PackageCore $package): void
     {
         $package->name('huma')
             ->hasConfig()
             ->hasTranslation()
+            ->hasView()
             ->registerClass('event', EventServiceProvider::class, RegisterClassTypeEnum::REGISTER())
             ->registerClass('Huma', Huma::class, RegisterClassTypeEnum::SINGLETON());
     }
