@@ -45,6 +45,14 @@ return [
 
     'dashboard' => [
         'title' => 'Human Resources Dashboard (Huma)',
+        'tiles' => [
+            'employees' => 'Employees Count',
+            'departments' => 'Departments',
+            'today_attendees' => 'Today Attendees',
+            'absent_today' => 'Absentees Today',
+            'person_on_leave' => 'People on Leave',
+            'total_salary' => 'Total Salary',
+        ],
     ],
 
 ];

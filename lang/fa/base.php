@@ -45,6 +45,14 @@ return [
 
     'dashboard' => [
         'title' => 'داشبورد منابع انسانی (Huma)',
+        'tiles' => [
+            'employees' => 'تعداد کارمندان',
+            'departments' => 'تعداد بخش‌ها',
+            'today_attendees' => 'حاضرین امروز',
+            'absent_today' => 'غایبین امروز',
+            'person_on_leave' => 'افراد در مرخصی',
+            'total_salary' => 'جمع حقوق و دستمزد',
+        ],
     ],
 
 ];
