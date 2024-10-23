@@ -11,7 +11,7 @@
                             <span class="path2"></span>
                         </i>
                     </div>
-                    <div class="d-flex flex-column my-7">
+                    <div class="d-flex flex-column my-2">
                         <span class="fw-semibold fs-3x text-gray-800 lh-3 ls-n2">61</span>
                         <div class="m-0">
                             <span class="fw-semibold fs-6 text-gray-400">{{ trans('huma::base.dashboard.tiles.employees') }}</span>
@@ -31,7 +31,7 @@
                             <span class="path4"></span>
                         </i>
                     </div>
-                    <div class="d-flex flex-column my-7">
+                    <div class="d-flex flex-column my-2">
                         <span class="fw-semibold fs-3x text-gray-800 lh-3 ls-n2">5</span>
                         <div class="m-0">
                             <span class="fw-semibold fs-6 text-gray-400">{{ trans('huma::base.dashboard.tiles.departments') }}</span>
@@ -49,7 +49,7 @@
                             <span class="path2"></span>
                         </i>
                     </div>
-                    <div class="d-flex flex-column my-7">
+                    <div class="d-flex flex-column my-2">
                         <span class="fw-semibold fs-3x text-gray-800 lh-3 ls-n2">50</span>
                         <div class="m-0">
                             <span class="fw-semibold fs-6 text-gray-400">{{ trans('huma::base.dashboard.tiles.today_attendees') }}</span>
@@ -68,7 +68,7 @@
                             <span class="path3"></span>
                         </i>
                     </div>
-                    <div class="d-flex flex-column my-7">
+                    <div class="d-flex flex-column my-2">
                         <span class="fw-semibold fs-3x text-gray-800 lh-3 ls-n2">2</span>
                         <div class="m-0">
                             <span class="fw-semibold fs-6 text-gray-400">{{ trans('huma::base.dashboard.tiles.absent_today') }}</span>
@@ -86,7 +86,7 @@
                             <span class="path2"></span>
                         </i>
                     </div>
-                    <div class="d-flex flex-column my-7">
+                    <div class="d-flex flex-column my-2">
                         <span class="fw-semibold fs-3x text-gray-800 lh-3 ls-n2">9</span>
                         <div class="m-0">
                             <span class="fw-semibold fs-6 text-gray-400">{{ trans('huma::base.dashboard.tiles.person_on_leave') }}</span>
@@ -104,7 +104,7 @@
                             <span class="path2"></span>
                         </i>
                     </div>
-                    <div class="d-flex flex-column my-7">
+                    <div class="d-flex flex-column my-2">
                         <span class="fw-semibold fs-3x text-gray-800 lh-3 ls-n2">999M</span>
                         <div class="m-0">
                             <span class="fw-semibold fs-6 text-gray-400">{{ trans('huma::base.dashboard.tiles.total_salary') }}</span>
